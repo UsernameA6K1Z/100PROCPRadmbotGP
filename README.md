@@ -4,7 +4,7 @@ import time
 from telebot import types
 from datetime import datetime, timedelta
 
-TOKEN = "8228552053:AAH_uCJjG98SPLLqY9UDOc3Z49P3e-aRBXI"
+TOKEN = "8228552053:AAH-QVBs8v366Z0pYcCJ29Nzq81ryrxiK8E"
 
 bot = telebot.TeleBot(TOKEN)
 
@@ -166,6 +166,5 @@ def handle_text(message):
         )
         return
 
-    # (тут остаются твои бан/мут/шиппер и т.д.)
 
-bot.infinity_polling() 
+bot.infinity_polling()
